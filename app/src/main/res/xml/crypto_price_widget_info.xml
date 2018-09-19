@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.example.camnc.cryptologogame.Widget.CryptoPriceWidgetConfigureActivity"
+    android:initialKeyguardLayout="@layout/crypto_price_widget"
+    android:initialLayout="@layout/crypto_price_widget"
+    android:minHeight="25dp"
+    android:minWidth="175dp"
+    android:previewImage="@drawable/bitcoin"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen|keyguard">
+</appwidget-provider>

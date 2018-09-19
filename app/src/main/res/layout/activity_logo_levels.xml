@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    tools:context="com.example.camnc.cryptologogame.logoLevelsActivity">
+
+    <Button
+        android:id="@+id/level1Btn"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Level 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/level2Btn"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Level 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level1Btn" />
+
+    <Button
+        android:id="@+id/level3Btn"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Level 3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level2Btn" />
+
+    <Button
+        android:id="@+id/level4Btn"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Level 4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level3Btn" />
+
+    <Button
+        android:id="@+id/level5Btn"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Level 5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level4Btn" />
+
+</android.support.constraint.ConstraintLayout>

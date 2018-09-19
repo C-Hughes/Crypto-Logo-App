@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff444444"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:background="#ff444444"
+        android:contentDescription="BTC"
+        android:text="BTC"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/appwidget_text"
+        android:layout_toStartOf="@+id/appwidget_text"
+        android:background="@android:drawable/ic_popup_sync" />
+
+</RelativeLayout>
